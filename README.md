@@ -1,16 +1,60 @@
-# React + Vite
+React Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie browsing application built with React, integrating The Movie Database (TMDB) API. This app allows users to view popular movies, search for movies, and save their favorites, all within a modern, interactive interface.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Popular Movies: Displays a list of trending movies fetched from TMDB API.
 
-## React Compiler
+Search Functionality: Users can search movies by title with real-time results.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Favorites: Mark movies as favorites to create a personalized list.
 
-## Expanding the ESLint configuration
+Responsive Design: Works seamlessly on desktop and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Interactive UI: Hover effects, overlays, and animations for a modern look.
+
+Error Handling & Loading States: Provides a smooth user experience even during API failures or loading delays.
+
+Tech Stack
+
+Frontend: React, React Router v6, HTML, CSS
+
+API: The Movie Database (TMDB) API
+
+Tools: Vite, JavaScript, Git/GitHub
+
+Screenshots
+
+(Add screenshots here)
+
+Setup Instructions
+
+Clone the repository
+
+git clone https://github.com/your-username/react-movie-app.git
+cd react-movie-app
+
+
+Install dependencies
+
+npm install
+
+
+Run the development server
+
+npm run dev
+
+
+Open the app
+Open the URL provided by Vite (usually http://localhost:5173/) in your browser.
+
+Future Enhancements
+
+Add user authentication to save favorites persistently.
+
+Implement pagination for large movie lists.
+
+Add movie ratings and reviews.
+
+Improve UI/UX with dark/light themes.
